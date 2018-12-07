@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/static/favicon.png"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/global_styles/css/bulma.css"/>
+    <link rel="stylesheet" href="/static/global_styles/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/Cropper/cropper.css"/>
+    <script src="/static/global_styles/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/static/Cropper/cropper.js"></script>
+</head>
+<body>
+   <div id="message_popup" style="text-align:center; display:none;">
+        <div class="floating-section-message">
+            <article class="message is-small">
+                <div class="message-header">
+                    <button class="delete" aria-label="delete" onclick="closeMessage(this)"></button>
+                </div>
+                <div class="message-body">
+                </div>
+            </article>
+        </div>
+    </div>
+   <section class="section" style="padding-top: 20px;">
+        <div style="padding-bottom: 20px;border-bottom: 1px solid #ddd;">
+            <div class="columns">
+                <div class="column" style="border: solid lightgrey; border-width: 0 1px;">
+                    <nav class="panel is-marginless">
+                        <p class="panel-heading has-text-centered">Upload an image and select some regions of interest</p>
+                        <div class="panel-block box column is-marginless">
+                            <div class="columns has-text-left" style="margin-bottom: 0px;">
+                                <div class="column">
+                                    <div class="file">
+                                        <label class="file-label">
+                                            <input class="file-input" type="file" name="resume" id="input_image">
+                                            <span class="file-cta">
+                                                <span class="file-icon">
+                                                    <i class="fas fa-upload"></i>
+                                                </span>
+                                                <span class="file-label" id="input_image_label">
+                                                    Choose a file…
+                                                </span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr style="margin: -1px;">
+                    </nav>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column has-text-centered">
+                    <img id='photo' class='is-hidden'>
+                </div>
+                <div class="floating-section">
+                    <div class="field">
+                        <a class="button is-primary is-large button-front-shadow" onclick="crop()">
+                            <span class="icon is-medium">
+                                <img src="/static/scissors.svg" alt="Select Icon"
+                                     style="vertical-align: sub;max-height: 23px;">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="field">
+                        <a class="button is-primary is-large button-front-shadow" onclick="sum_all()">
+                            <span class="icon is-medium">
+                                <img src="/static/plus.svg" alt="Select Icon"
+                                     style="vertical-align: sub;max-height: 23px;">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="columns" id="selection_results" style="display: none;">
+                <div class="column" style="border: solid lightgrey; border-width: 0 1px;">
+                    <nav class="panel is-marginless">
+                        <p class="panel-heading has-text-centered">Selection Preview</p>
+                        <div class="panel-block box column is-marginless">
+                            <div id="selection">
+                            </div>
+                        </div>
+                        <hr style="margin: -1px;">
+                    </nav>
+                    <nav class="panel is-marginless">
+                        <p class="panel-heading has-text-centered">Equation</p>
+                        <div class="panel-block box column is-marginless">
+                            <p>Reference example: To reference selection 1, write s1, to reference selection 2, write s2, etc.</p>
+                            <input id="equation" class="input" type="text" placeholder="Input your equation">
+                        </div>
+                        <hr style="margin: -1px;">
+                    </nav>
+                    <nav class="panel is-marginless">
+                        <p class="panel-heading has-text-centered">Result</p>
+                        <div class="panel-block box column is-marginless">
+                            <input id="equation_result" class="input" type="text">
+                        </div>
+                        <hr style="margin: -1px;">
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+<script type="text/javascript">
+    var digits_array = [];
+    var cropper;
+    var cropped_x;
+    var cropped_y;
+    var cropped_w;
+    var cropped_h;
+
+    $(document).ready(function() {
+        initCropper();
+    });
+
+
+    $("#input_image").change(function(e){
+        $("#input_image_label").text(e.target.files[0].name);
+
+        let attachment = document.getElementById('input_image').files[0];
+        let formData = new FormData();
+        formData.append('attachment', attachment);
+        $.ajax({
+            type: 'POST',
+            url: '/upload_file',
+            dataType: "json",
+            processData: false,
+            contentType: false,
+            data: formData,
+            error: function () {
+                console.log('Error');
+            },
+            success: function (response) {
+                if (response['result'] == 'ok'){
+                    $("#photo").attr('src', "/static" + response['image_url'].split("static")[1]);
+                    cropper.destroy();
+                    initCropper();
+                    $('#photo').removeClass('is-hidden');
+                }
+                else {
+                    alert("Error. Did you upload an image?")
+                }
+            }
+        });
+    });
+
+    function initCropper(){
+        const image = document.getElementById('photo');
+        cropper = new Cropper(image, {
+            viewMode:1,
+            center: false,
+            autoCrop: false,
+            crop(event) {
+                cropped_x = event.detail.x;
+                cropped_y = event.detail.y;
+                cropped_w = event.detail.width;
+                cropped_h = event.detail.height;
+            },
+        });
+    }
+
+    function crop(){
+        var x1 = cropped_x;
+        var y1 = cropped_y;
+        var x2 = cropped_x + cropped_w;
+        var y2 = cropped_y + cropped_h;
+        if (x2 != 0 && y2 != 0){
+            $.ajax({
+                type: 'POST',
+                url: '/save_cropped_image',
+                dataType: "json",
+                data: {
+                    'x1':Math.round(x1),
+                    'x2':Math.round(x2),
+                    'y1':Math.round(y1),
+                    'y2':Math.round(y2)
+                },
+                error: function () {
+                    console.log('Error');
+                },
+                success: function (response) {
+                    /*if (navigator.platform == "Win32"){
+                        imgsrc = response['image_url'];
+                    }
+                    else{*/
+                        imgsrc = "./static" + response['image_url'].split("static")[1];
+                    //}
+                    digits_array.push(response['digits']);
+                    var selection_code = `  <div class="columns has-text-centered has-text-weight-bold" style="background: linear-gradient(to bottom right, #038fbc, #38cadb);">
+                                        <p class="column is-paddingless has-text-white">Selection ` +  response['counter'] + `</p>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column has-text-centered">
+                                            <img id="photo_preview" src="` + imgsrc + `">
+                                            <p>Predicted Number: ` + response['digits'] + `</p>
+                                        </div>
+                                    </div>`
+                    $("#selection").append(selection_code);
+                    showMessage('success', 'Image processed');
+                    $("#selection_results").fadeIn(1000);
+                }
+            });
+
+
+        }
+    }
+
+
+    // Listener para la ecuación
+
+    $('#equation').on('input',function(e){
+        var input = $('#equation').val();
+        if (input != ""){
+            for (var i = 1; i <= digits_array.length; i++) {
+                input = input.replace("s" + i, digits_array[i-1]);
+            }
+            // Si no hay letras en el input
+            if (!input.match(/[a-z]/i)) {
+                // Try Catch for catching syntax errors
+                try {
+                    $('#equation_result').val(eval(input));
+                }
+                catch(err) {
+                }
+
+            }
+        }
+        else{
+            $('#equation_result').val('');
+        }
+    });
+
+    // Funcion que suma todos los resultados obtenidos
+    function sum_all(){
+
+        formula = "";
+        for (var i = 1; i <= digits_array.length; i++) {
+            formula = formula + "s" + i + "+";
+        }
+        $("#equation").val(formula.slice(0, -1));
+        $("#equation").trigger('input');
+    }
+
+    function showMessage(type, mensaje, close) {
+        if ($("#message_popup").length) {
+            $('#message_popup').remove();
+        }
+
+        var button = type == 'success' || mensaje.indexOf('duplicate') != -1 ? '' : '<button class="delete" aria-label="delete" onclick="closeMessage(this)"></button>';
+
+        $('<div id="message_popup" style="text-align:center">' +
+            '<div class="floating-section-message">' +
+            '<article class="message is-small is-' + type + '">' +
+            '<div class="message-header">' +
+            '<p>' + type.toUpperCase() + '</p>' + button +
+            '</div>' +
+            '<div class="message-body">' +
+            '' + mensaje + '<br/>' +
+            '</div>' +
+            '</article>' +
+            '</div>' +
+            '</div>')
+            .appendTo('body');
+
+        if (type == 'success' || mensaje.indexOf('duplicate') != -1 || close) {
+            $("#message_popup").delay(2000).fadeOut(500);
+        }
+    }
+
+</script>

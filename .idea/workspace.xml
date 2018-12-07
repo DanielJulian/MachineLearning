@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6aec901-045e-40bb-bc55-ec9921fcf9fe" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>super secret key</find>
+      <find>preprocessing</find>
+      <find>selection_results</find>
+      <find>Input your</find>
+      <find>counter</find>
+      <find>image_filename</find>
+      <find>cropped_filenames</find>
+      <find>md</find>
+      <find>display_output</find>
+      <find>display</find>
+      <find>average</find>
+      <find>average de</find>
+      <find>determine_skew</find>
+      <find>img_area</find>
+      <find>hidden</find>
+      <find>photo_column</find>
+      <find>jcrop</find>
+      <find>photo</find>
+      <find>nn_name</find>
+      <find>preprocess</find>
+      <find>boundingRect</find>
+      <find>img_label_load</find>
+      <find>get_label_map_dict</find>
+      <find>load_labelmap</find>
+      <find>cv2.im</find>
+      <find>WebcamVideoStream</find>
+      <find>load_inference_graph</find>
+      <find>get_</find>
+      <find>resiz</find>
+      <find>win</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>x1</replace>
+      <replace>/</replace>
+      <replace>range</replace>
+      <replace>digit</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\neuralnetworksanddeeplearning</dir>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\tensorflow\keras\my_images</dir>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask\SelectROI\templates</dir>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask\SelectROI</dir>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask\SelectROI\static\imgareaselect\scripts</dir>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask\SelectROI\static\imgareaselect\css</dir>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask\DigitPrediction\preprocessing</dir>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask</dir>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\ocr-master</dir>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask\DigitPrediction</dir>
+      <dir>C:\Users\DannyJulian\PycharmProjects\MachineLearning\Hand Detection</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ocr-master/user_input/user_input.py" />
+        <option value="$PROJECT_DIR$/ocr-master/segmentation_characters/segmentation_characters.py" />
+        <option value="$PROJECT_DIR$/ocr-master/keras_net/keras_net.py" />
+        <option value="$PROJECT_DIR$/tensorflow/keras/classify_custom_digits.py" />
+        <option value="$PROJECT_DIR$/ocr-master/output_images/asdasd.py" />
+        <option value="$PROJECT_DIR$/ocr-master/ocr.py" />
+        <option value="$PROJECT_DIR$/ocr-master/segmentation_words/segmentation_words.py" />
+        <option value="$PROJECT_DIR$/ocr-master/before_segmentation/before_segmentation.py" />
+        <option value="$PROJECT_DIR$/ocr-master/functions_lines/functions_lines.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/preprocessing/keras_net/keras_net.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/preprocessing/functions_lines/__init__.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/preprocessing/functions_characters.py" />
+        <option value="$PROJECT_DIR$/OpenCV/roi_selection.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/preprocessing/before_segmentation.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/SelectROI.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/preprocessing/segmentation_words.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/preprocessing/ocr.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/preprocessing/segmentation_characters.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/preprocessing/keras_net.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/functions/segmentation_words.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/functions/before_segmentation.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/functions/segmentation_characters.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/functions/alyn/deskew.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/functions/alyn/skew_detect.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/functions/alyn/asd.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/static/Cropper/cropper.js" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/static/Cropper/cropper.css" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/static/global_styles/css/main.css" />
+        <option value="$PROJECT_DIR$/tensorflow/keras/new_train_hope.py" />
+        <option value="$PROJECT_DIR$/tensorflow/keras/tain_mnist_2.py" />
+        <option value="$PROJECT_DIR$/tensorflow/keras/train_mnist_3.py" />
+        <option value="$PROJECT_DIR$/tensorflow/keras/super_train.py" />
+        <option value="$PROJECT_DIR$/tensorflow/keras/train_mnist_2.py" />
+        <option value="$PROJECT_DIR$/tensorflow/keras/train_mnist.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/functions/neural_network.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/functions/ocr.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/functions/segmentation.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/functions/preprocess.py" />
+        <option value="$PROJECT_DIR$/emnist/train_network.py" />
+        <option value="$PROJECT_DIR$/OpenCV/Digits/draw_digits.py" />
+        <option value="$PROJECT_DIR$/OpenCV/Drawing/draw_mnist.py" />
+        <option value="$PROJECT_DIR$/Hand Detection/credits" />
+        <option value="$PROJECT_DIR$/Hand Detection/utils/label_map_util.py" />
+        <option value="$PROJECT_DIR$/Hand Detection/utils/detector_utils.py" />
+        <option value="$PROJECT_DIR$/OpenCV/range_detector.py" />
+        <option value="$PROJECT_DIR$/OpenCV/Drawing/draw_emnist.py" />
+        <option value="$PROJECT_DIR$/OpenCV/Real_Time_Processing/main_emnist.py" />
+        <option value="$PROJECT_DIR$/OpenCV/Real_Time_Processing/main.py" />
+        <option value="$PROJECT_DIR$/key_logger.pyw" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/main.py" />
+        <option value="$PROJECT_DIR$/Flask/DigitPrediction/templates/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="746" />
+    <option name="y" value="-18" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Git Bash.lnk" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DannyJulian\PycharmProjects\MachineLearning\OpenCV\Drawing" />
+      <recent name="C:\Users\DannyJulian\PycharmProjects\MachineLearning\OpenCV" />
+      <recent name="C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask" />
+      <recent name="C:\Users\DannyJulian\PycharmProjects\MachineLearning" />
+      <recent name="C:\Users\DannyJulian\PycharmProjects\MachineLearning\Hand Detection\Hand Detection 2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask" />
+      <recent name="C:\Users\DannyJulian\PycharmProjects\MachineLearning\OpenCV\Real_Time_Processing" />
+      <recent name="C:\Users\DannyJulian\PycharmProjects\MachineLearning\OpenCV\Digits" />
+      <recent name="C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask\DigitPrediction\functions\test_imgs\many" />
+      <recent name="C:\Users\DannyJulian\PycharmProjects\MachineLearning\Flask\DigitPrediction\functions" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.draw_emnist">
+    <configuration name="digits_segmentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digit_segmentation/separate_digits" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digit_segmentation/separate_digits/digits_segmentation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="draw_emnist (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/last_backup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\DannyJulian\PycharmProjects\MachineLearning\OpenCV\Drawing\draw_emnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="draw_emnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\DannyJulian\PycharmProjects\MachineLearning\OpenCV\Drawing\draw_emnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="key_logger.pyw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/key_logger.pyw" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/DigitPrediction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/DigitPrediction/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.key_logger.pyw" />
+      <item itemvalue="Python.draw_emnist (1)" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.digits_segmentation" />
+      <item itemvalue="Python.draw_emnist" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.draw_emnist" />
+        <item itemvalue="Python.digits_segmentation" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.draw_emnist (1)" />
+        <item itemvalue="Python.key_logger.pyw" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6aec901-045e-40bb-bc55-ec9921fcf9fe" name="Default" comment="" />
+      <created>1524602338783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524602338783</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.17755532" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015806" side_tool="true" weight="0.38779956" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49736565" weight="0.23965141" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49841937" weight="0.32570806" />
+      <window_info id="Structure" order="1" sideWeight="0.5021834" side_tool="true" weight="0.22181243" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3278867" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" sideWeight="0.5021834" side_tool="true" weight="0.22181243" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.38779956" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3278867" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50263435" side_tool="true" weight="0.24945533" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49736565" weight="0.3540305" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointLogExpression">
+      <expression>
+        <expression-string>sess = tf.InteractiveSession()
+
+x = tf.placeholder(tf.float32, shape=[None, 784])
+y_ = tf.placeholder(tf.float32, shape=[None, 10])
+
+W = tf.Variable(tf.zeros([784, 10]))
+b = tf.Variable(tf.zeros([10]))
+
+sess.run(tf.global_variables_initializer())
+y = tf.matmul(x, W) + b
+
+cross_entropy = tf.reduce_mean(
+    tf.nn.softmax_cross_entropy_with_logits(labels=y_, logits=y))
+train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
+
+for _ in range(1000):
+    batch = mnist.train.next_batch(100)
+    train_step.run(feed_dict={x: batch[0], y_: batch[1]})
+
+    correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
+    accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+
+print(accuracy.eval(feed_dict={x: mnist.test.images, y_: mnist.test.labels}))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/functions/ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="26" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/functions/segmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="96" column="75" selection-start-line="96" selection-start-column="75" selection-end-line="96" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/functions/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/static/Cropper/cropper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="35477" selection-start-line="9" selection-start-column="35477" selection-end-line="9" selection-end-column="35477" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/static/Cropper/cropper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="3558" selection-start-line="8" selection-start-column="3558" selection-end-line="8" selection-end-column="3558" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/static/global_styles/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/keras/new_train_hope.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="2397" selection-start-line="2397" selection-end-line="2397" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/otsu threshold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr-master/ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr-master/segmentation_words/segmentation_words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/keras/super_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr-master/before_segmentation/before_segmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/keras/train_mnist_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="64" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/keras/train_mnist_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/keras/train_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="133" column="6" lean-forward="true" selection-start-line="133" selection-end-line="133" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hand Detection/credits" />
+    <entry file="file://$PROJECT_DIR$/Hand Detection/utils/label_map_util.py" />
+    <entry file="file://$PROJECT_DIR$/Hand Detection/augment_images.py" />
+    <entry file="file://$PROJECT_DIR$/Hand Detection/utils/detector_utils.py" />
+    <entry file="file://$PROJECT_DIR$/Hand Detection 2/utils/label_map_util.py" />
+    <entry file="file://$PROJECT_DIR$/Hand Detection 2/protos/matcher_pb2.py" />
+    <entry file="file://$PROJECT_DIR$/Hand Detection 2/protos/train_pb2.py" />
+    <entry file="file://$PROJECT_DIR$/Hand Detection 2/utils/detector_utils.py" />
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/functions/neural_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="3" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/functions/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="25" selection-start-line="25" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/functions/segmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1786">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/range_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="53" selection-start-line="53" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/Drawing/draw_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="135" column="12" lean-forward="true" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emnist/train_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/functions/ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="45" column="61" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/key_logger.pyw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/last_backup/DigitPrediction Ubuntu/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/last_backup/DigitPrediction Ubuntu/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="132" column="27" lean-forward="true" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/static/jquery/jquery.csv.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/last_backup/DigitPrediction/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digit_segmentation/separate_digits/digits.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digit_segmentation/separate_digits/digits_segmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binarize_segment_predict/numbers.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/Drawing/draw_emnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/Drawing/draw_emnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/Real_Time_Processing/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4408">
+          <caret line="232" column="31" selection-start-line="232" selection-start-column="31" selection-end-line="232" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/DigitPrediction/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="63" column="96" selection-start-line="63" selection-start-column="83" selection-end-line="63" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/Drawing/draw_digits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/Real_Time_Processing/main_emnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/Real_Time_Processing/main_emnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/roi_selection.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/Real_Time_Processing/main_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flaskasd.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+  </component>
+</project>
